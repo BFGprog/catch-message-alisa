@@ -15,6 +15,7 @@ public class MassageController {
 //https://sixty-pianos-relate.loca.lt
 //https://myalisa.loca.lt
 //clo.exe publish http 8080
+//clo publish http 9000
 
     Logger logger = LoggerFactory.getLogger(MassageController.class);
     private final MassageService massageService;

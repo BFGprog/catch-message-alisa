@@ -12,7 +12,10 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Data
 public class Item {
-    @SequenceGenerator(name = "generatorItemId", allocationSize = 1)
+    @SequenceGenerator(
+            name = "generatorItemId"
+            ,sequenceName = "generatoritemid"
+            ,allocationSize = 1)
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE,
             generator = "generatorItemId")
